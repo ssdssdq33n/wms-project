@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -l \"supabase\\\\|createClient\" D:/wms/do-an-full/src/contexts/*.tsx)",
+      "Bash(grep \"\\\\.java$\")",
+      "Bash(xargs grep:*)",
+      "Bash(find D:wmswarehouse-servicesrcmainjavacomanhnhtwarehouseservicemodulesorder -type f -name *.java)",
+      "Bash(ls:*)",
+      "Bash(find /d/wms/do-an-full/src -name *Login* -o -name *login*)",
+      "Bash(find D:/wms/warehouse-service/src/main/java/com/anhnht/warehouse/service/modules/user -name *SystemLog* -o -name *Log*Response* 2)",
+      "Bash(/dev/null find:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(find D:/wms/do-an-full -name vite.config* -maxdepth 2)",
+      "Bash(node_modules/.bin/vite build:*)",
+      "Bash(xargs cat:*)",
+      "Bash(find /d/wms/warehouse-service/src/main/resources/db/migration -type f -name *.sql)",
+      "Bash(grep:*)",
+      "Bash(find /d/wms/do-an-full/src/components -type f -name *.tsx)"
+    ]
+  }
+}
